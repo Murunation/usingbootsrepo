@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <title>Grid framework</title>
+  </head>
+  <body>
+    <header class="bg-dark">
+      <div class="container">
+        <div class="row text-white">
+          <div class="col-6 col-sm-4">
+            <h3>Bootstrap</h3>
+          </div>
+          <div class="col-4 d-none d-sm-inline col-sm-4">
+            <ul class="d-flex justify-content-between list-unstyled">
+              <li>Home</li>
+              <li>Contact</li>
+              <li>About us</li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-4 p-0">
+            <div class="dropdown d-flex justify-content-end pe-3 pe-sm-0">
+              <button
+                type="button"
+                class="btn btn-info dropdown-toggle"
+                data-bs-toggle="dropdown"
+              >
+                Dropdown button
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><a class="dropdown-item" href="#">Link 3</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 d-sm-none">
+            <ul class="list-unstyled d-flex mt-2 justify-content-evenly align-items-center">
+              <li>Home</li>
+              <li>Contact</li>
+              <li>About us</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="container-fluid">
+      <div class="row bg-info ps-4 pe-4">
+        <div class="col-12 mt-4 mb-4 mt-md-5 m-0 bg-#adb5bd rounded-3 d-sm-flex justify-content-around align-items-center col-md-3 d-md-block">
+          <div class="row col-sm-5 col-md-12 m-0 ">
+            <img src="./android-chrome-512x512.png" alt="bootstrap" />
+          </div>
+          <div class="row mt-4 text-center d-sm-flex flex-md-column align-items-md-center">
+            <a href="#" class="text-decoration-none text-black col-sm-4 mb-md-4">Facebook</a>
+            <a href="#" class="text-decoration-none text-black col-sm-4 mb-md-4 ">Website</a>
+            <a href="#" class="text-decoration-none text-black col-sm-4">Instagram</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-9 mt-md-5">
+          <div class="row d-flex justify-content-around">
+            <div class="col-8 col-sm-3 d-flex flex-column align-items-center">
+              <div class="row text-center w-50 mb-3">
+                <h5>Title</h5>
+                <img src="./android-chrome-512x512.png" alt="Home" />
+              </div>
+              <div class="row text-center w-50 mb-3">
+                <h5>Title</h5>
+                <img src="./android-chrome-512x512.png" alt="Home" />
+              </div>
+              <div class="row text-center w-50 mb-3">
+                <h5>Title</h5>
+                <img src="./android-chrome-512x512.png" alt="Home" />
+              </div>
+              <div class="row text-center w-50 mb-4">
+                <h5>Title</h5>
+                <img src="./android-chrome-512x512.png" alt="Home" />
+              </div>
+            </div>
+            <div class="col-12 col-sm-7 m-0 p-0 d-flex flex-column align-items-center ">
+              <img src="./android-chrome-512x512.png" alt="Home" class=" w-75 mb-3 float-start"/>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus, eligendi sequi? Velit aliquid ratione quaerat dolorem
+                et, nemo quo exercitationem voluptas assumenda nesciunt eligendi
+                neque obcaecati quae vel odit aperiam sit omnis ipsa delectus
+                eveniet corrupti. Reiciendis ad cumque nemo illo deserunt
+                ducimus suscipit quod, consequuntur voluptatum molestiae?
+                Labore, provident est. Quaerat maxime commodi officia, unde
+                porro tenetur cum accusantium est alias aspernatur quae,
+                dignissimos laboriosam nulla libero, at voluptatibus cupiditate
+                dolore esse. Adipisci quae aspernatur praesentium! Nisi, cumque
+                necessitatibus magni officia minima veniam ab ea eum inventore,
+                error reiciendis dolore iure quod iusto aspernatur? Aut iure
+                quae totam illo.
+              </p>
+              <p class="mb-4 mt-4 bg-dark text-white w-75 rounded-3 d-sm-none">Description text</p>
+            </div>
+          </div>
+          <div class="row col-md-12">
+            <div class="col d-sm-flex col-sm-12">
+                <div class="col-12 col-sm-2 text-center">
+                    <h5>Settings</h5>
+                </div>
+                <div class="col-6 col-sm-8 d-sm-flex m-3">
+                    <div class="custom-control custom-switch mb-3 col-sm-2">
+                        <input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
+                        <label class="custom-control-label" for="customSwitch1">Toggle</label>
+                      </div>
+                    <select class="form-select bg-dark text-white mb-3 me-2" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <div class="input-group">
+                        <span class="input-group-text bg-dark text-white">With textarea</span>
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                      </div>
+                </div>
+            </div>
+            <div class="col-12 d-flex justify-content-evenly mb-4 justify-content-sm-end">
+                <div class="col-6 col-sm-3 text-end"><button type="button" class="btn btn-primary">Cancel button</button></div>
+                <div class="col-6 col-sm-3 text-center" ><button type="button" class="btn btn-primary">Save button</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row d-sm-flex justify-content-between">
+                <div class="col-12 col-sm-8 text-center d-sm-flex ">
+                    <h3>Footer txt 1</h3>
+                    <h3>footer txt 2</h3>
+                </div>
+                <div class="col-12 col-sm-4 ps-0 text-center">
+                    <h3>footer text 3</h3>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </body>
+</html>
